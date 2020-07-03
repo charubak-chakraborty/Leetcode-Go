@@ -18,8 +18,17 @@ func main() {
 	// fmt.Print(output)
 
 	// 1431
-	candies := []int{2, 3, 5, 1, 3}
-	extraCandies := 3
-	output := leetcodeArray.KidsWithCandies(candies, extraCandies)
+	// candies := []int{2, 3, 5, 1, 3}
+	// extraCandies := 3
+	// output := leetcodeArray.KidsWithCandies(candies, extraCandies)
+	// fmt.Print(output)
+
+	// 1486
+	// output := leetcodeArray.XorOperation(5, 0)
+	// fmt.Print(output)
+
+	// 1365
+	nums := []int{8, 1, 2, 2, 3}
+	output := leetcodeArray.SmallerNumbersThanCurrent(nums)
 	fmt.Print(output)
 }
