@@ -28,7 +28,39 @@ func main() {
 	// fmt.Print(output)
 
 	// 1365
-	nums := []int{8, 1, 2, 2, 3}
-	output := leetcodeArray.SmallerNumbersThanCurrent(nums)
+	// nums := []int{8, 1, 2, 2, 3}
+	// output := leetcodeArray.SmallerNumbersThanCurrent(nums)
+	// fmt.Print(output)
+
+	// 1313
+	// nums := []int{1, 2, 3, 4}
+	// output := leetcodeArray.DecompressRLElist(nums)
+	// fmt.Print(output)
+
+	// 1389
+	// nums := []int{1, 2, 3, 4, 0}
+	// index := []int{0, 1, 2, 3, 0}
+	// output := leetcodeArray.CreateTargetArray(nums, index)
+	// fmt.Print(output)
+
+	// 1295
+	// nums := []int{555, 901, 482, 1771}
+	// output := leetcodeArray.FindNumbers(nums)
+	// fmt.Print(output)
+
+	// 1266
+	// nums := [][]int{{3, 2}, {-2, -2}}
+	// output := leetcodeArray.MinTimeToVisitAllPoints(nums)
+	// fmt.Print(output)
+
+	// 1502
+	// nums := []int{3, 4, 1}
+	// output := leetcodeArray.CanMakeArithmeticProgression(nums)
+	// fmt.Print(output)
+
+	// 561
+	nums := []int{1, 4, 3, 2}
+	output := leetcodeArray.ArrayPairSum(nums)
 	fmt.Print(output)
+
 }
