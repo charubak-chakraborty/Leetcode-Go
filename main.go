@@ -59,8 +59,13 @@ func main() {
 	// fmt.Print(output)
 
 	// 561
-	nums := []int{1, 4, 3, 2}
-	output := leetcodeArray.ArrayPairSum(nums)
+	// nums := []int{1, 4, 3, 2}
+	// output := leetcodeArray.ArrayPairSum(nums)
+	// fmt.Print(output)
+
+	// 561
+	nums := []int{2, 2, 1, 1, 1, 2, 2}
+	output := leetcodeArray.MajorityElement(nums)
 	fmt.Print(output)
 
 }
