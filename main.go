@@ -105,8 +105,38 @@ func main() {
 	// fmt.Print(op)
 
 	//1281
-	num := 24
-	op := leetcodeArray.SubtractProductAndSum(num)
-	fmt.Print(op)
+	// num := 24
+	// op := leetcodeArray.SubtractProductAndSum(num)
+	// fmt.Print(op)
+
+	// 937
+
+	// logs := []string{"a1 9 2 3 1", "g1 act car", "zo4 4 7", "ab1 off key dog", "a8 act zoo", "a2 act car"}
+	// op := leetcodeArray.ReorderLogFiles(logs)
+	// fmt.Print(op)
+
+	// 2
+
+	// list1 := leetcodeArray.ListNode{2, &leetcodeArray.ListNode{4, &leetcodeArray.ListNode{3, nil}}}
+	// list2 := leetcodeArray.ListNode{5, &leetcodeArray.ListNode{6, &leetcodeArray.ListNode{4, nil}}}
+	// // list1 := leetcodeArray.ListNode{5, nil}
+	// // list2 := leetcodeArray.ListNode{5, nil}
+	// op := leetcodeArray.AddTwoNumbers(&list1, &list2)
+
+	// for op != nil {
+	// 	fmt.Print(op.Val)
+	// 	op = op.Next
+	// }
+
+	// 206
+
+	list1 := leetcodeArray.ListNode{2, &leetcodeArray.ListNode{4, &leetcodeArray.ListNode{3, nil}}}
+
+	op := leetcodeArray.ReverseList(&list1)
+
+	for op != nil {
+		fmt.Print(op.Val)
+		op = op.Next
+	}
 
 }
