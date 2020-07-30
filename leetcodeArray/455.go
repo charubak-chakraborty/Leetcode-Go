@@ -24,6 +24,9 @@ import "sort"
 // Explanation: You have 2 children and 3 cookies. The greed factors of 2 children are 1, 2.
 // You have 3 cookies and their sizes are big enough to gratify all of the children,
 // You need to output 2.
+
+// =============================TAG-GREEDY=============================
+
 func FindContentChildren(g []int, s []int) int {
 	sort.Ints(g)
 	sort.Ints(s)

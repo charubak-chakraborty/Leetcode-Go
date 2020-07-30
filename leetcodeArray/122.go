@@ -51,6 +51,7 @@ package leetcodeArray
 // 	}
 // 	return mProfit
 // }
+// =============================TAG-GREEDY=============================
 
 //Approach 3: Simple One Pass
 

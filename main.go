@@ -128,11 +128,22 @@ func main() {
 	// 	op = op.Next
 	// }
 
+	// // 206
+
+	// list1 := leetcodeArray.ListNode{2, &leetcodeArray.ListNode{4, &leetcodeArray.ListNode{3, nil}}}
+
+	// op := leetcodeArray.ReverseList(&list1)
+
+	// for op != nil {
+	// 	fmt.Print(op.Val)
+	// 	op = op.Next
+	// }
 	// 206
 
 	list1 := leetcodeArray.ListNode{2, &leetcodeArray.ListNode{4, &leetcodeArray.ListNode{3, nil}}}
+	list2 := leetcodeArray.ListNode{2, &leetcodeArray.ListNode{4, &leetcodeArray.ListNode{3, nil}}}
 
-	op := leetcodeArray.ReverseList(&list1)
+	op := leetcodeArray.MergeTwoLists(&list1, &list2)
 
 	for op != nil {
 		fmt.Print(op.Val)

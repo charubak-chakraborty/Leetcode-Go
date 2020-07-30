@@ -32,6 +32,8 @@ package leetcodeArray
 // 1 <= s.length <= 1000
 // s[i] = 'L' or 'R'
 
+// =============================TAG-GREEDY=============================
+
 func BalancedStringSplit(s string) int {
 	rc := 0
 	lc := 0
