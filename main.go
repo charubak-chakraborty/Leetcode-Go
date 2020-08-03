@@ -37,7 +37,7 @@ func main() {
 	// output := leetcodeArray.DecompressRLElist(nums)
 	// fmt.Print(output)
 
-	// 1389
+	// 1389 - TODO
 	// nums := []int{1, 2, 3, 4, 0}
 	// index := []int{0, 1, 2, 3, 0}
 	// output := leetcodeArray.CreateTargetArray(nums, index)
@@ -109,7 +109,7 @@ func main() {
 	// op := leetcodeArray.SubtractProductAndSum(num)
 	// fmt.Print(op)
 
-	// 937
+	// 937 - TODO
 
 	// logs := []string{"a1 9 2 3 1", "g1 act car", "zo4 4 7", "ab1 off key dog", "a8 act zoo", "a2 act car"}
 	// op := leetcodeArray.ReorderLogFiles(logs)
@@ -140,14 +140,43 @@ func main() {
 	// }
 	// 206
 
-	list1 := leetcodeArray.ListNode{2, &leetcodeArray.ListNode{4, &leetcodeArray.ListNode{3, nil}}}
-	list2 := leetcodeArray.ListNode{2, &leetcodeArray.ListNode{4, &leetcodeArray.ListNode{3, nil}}}
+	// list1 := leetcodeArray.ListNode{2, &leetcodeArray.ListNode{4, &leetcodeArray.ListNode{3, nil}}}
+	// list2 := leetcodeArray.ListNode{2, &leetcodeArray.ListNode{4, &leetcodeArray.ListNode{3, nil}}}
 
-	op := leetcodeArray.MergeTwoLists(&list1, &list2)
+	// op := leetcodeArray.MergeTwoLists(&list1, &list2)
 
-	for op != nil {
-		fmt.Print(op.Val)
-		op = op.Next
-	}
+	// for op != nil {
+	// 	fmt.Print(op.Val)
+	// 	op = op.Next
+	// }
 
+	//67
+	// res := leetcodeArray.AddBinary("1010", "1011")
+	// fmt.Print(res)
+
+	//9
+	// res := leetcodeArray.IsPalindrome(1001)
+	// fmt.Print(res)
+
+	//387
+	// res := leetcodeArray.FirstUniqChar("loveleetcode")
+	// fmt.Print(res)
+
+	//1119
+	res := leetcodeArray.RemoveVowels("loveleetcode")
+	fmt.Print(res)
+
+	//1165 - TODO
+	// res := leetcodeArray.CalculateTime("pqrstuvwxyzabcdefghijklmno", "leetcode")
+	// fmt.Print(res)
+
+	//217 -- TODO
+	// nums := []int{3, 0, 1, 1}
+	// res := leetcodeArray.ContainsDuplicate(nums)
+	// fmt.Print(res)
+
+	//1342
+
+	// res := leetcodeArray.NumberOfSteps(14)
+	// fmt.Print(res)
 }
