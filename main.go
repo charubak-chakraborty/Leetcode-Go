@@ -163,8 +163,8 @@ func main() {
 	// fmt.Print(res)
 
 	//1119
-	res := leetcodeArray.RemoveVowels("loveleetcode")
-	fmt.Print(res)
+	// res := leetcodeArray.RemoveVowels("loveleetcode")
+	// fmt.Print(res)
 
 	//1165 - TODO
 	// res := leetcodeArray.CalculateTime("pqrstuvwxyzabcdefghijklmno", "leetcode")
@@ -179,4 +179,8 @@ func main() {
 
 	// res := leetcodeArray.NumberOfSteps(14)
 	// fmt.Print(res)
+
+	//557
+	res := leetcodeArray.ReverseWords("Let's take LeetCode contest")
+	fmt.Print(res)
 }
