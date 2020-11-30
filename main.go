@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	leetcodeArray "./leetcodeArray"
 )
 
@@ -181,6 +179,10 @@ func main() {
 	// fmt.Print(res)
 
 	//557
-	res := leetcodeArray.ReverseWords("Let's take LeetCode contest")
-	fmt.Print(res)
+	// res := leetcodeArray.ReverseWords("Let's take LeetCode contest")
+	// fmt.Print(res)
+
+	//344
+	s := []byte("hello")
+	leetcodeArray.ReverseString(s)
 }
