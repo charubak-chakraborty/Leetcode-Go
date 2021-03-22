@@ -1,7 +1,9 @@
 package main
 
 import (
-	leetcodeArray "./leetcodeArray"
+	"fmt"
+
+	"github.com/charubak-chakraborty/Leetcode-Go/leetcodeArray"
 )
 
 func main() {
@@ -185,4 +187,5 @@ func main() {
 	// 344
 	s := []byte("hello")
 	leetcodeArray.ReverseString(s)
+	fmt.Print(string(s))
 }
